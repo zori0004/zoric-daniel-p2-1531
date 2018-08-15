@@ -1,0 +1,57 @@
+/** COLORS USED  **/
+/* Green: #00631A */
+/* Green: #e5ffec */
+
+/** FONTS USED  **/
+/* font-family: 'Cabin', sans-serif; */ 
+/* font-family: 'Old Standard TT', serif; */
+
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700|Old+Standard+TT');
+
+body {
+    font-family: 'Old Standard TT', serif;
+    line-height: 1.6;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Cabin', sans-serif;
+}
+
+img {
+    max-width: 100%:
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bg-dark {
+    background-color: #00631A !important;
+}
+
+.jumbotron {
+    background-color: #e5ffec !important;
+}
+
+@media only screen and (max-width: 576px) {
+    
+    body {
+        font-size: 0.75rem;
+    }
+    
+    .main-head {
+        font-size: 1.5rem;
+    }
+    
+    .lead {
+        font-size: 0.75rem;
+    }
+
+}
